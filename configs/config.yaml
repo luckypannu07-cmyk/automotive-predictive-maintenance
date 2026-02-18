@@ -1,0 +1,25 @@
+# Autonomous ML System Configuration
+
+data:
+  path: "data/train_data.csv"
+  test_split: 0.2
+  random_state: 42
+
+model:
+  type: "RandomForestRegressor"
+  random_state: 42
+  
+optuna:
+  n_trials: 20
+  sampler: "TPESampler"
+  direction: "minimize"
+  n_estimators_range: [50, 200]
+  max_depth_range: [3, 15]
+
+mlflow:
+  experiment_name: "predictive_maintenance"
+  run_name: "baseline_model"
+  
+pipeline:
+  validation_split: 0.2
+  random_state: 42

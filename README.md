@@ -77,6 +77,7 @@ FUTURE IMPROVEMENTS - Model Registry with production/staging promotion -
 Automated retraining trigger - CI/CD integration - Containerization -
 Real-time streaming ingestion
 
-AUTHOR Data Scientist & Machine Learning Engineer Focused on building
+Lucky Panu
+Data Scientist & Machine Learning Engineer Focused on building
 scalable, production-grade AI systems for industrial and automotive
 applications.

@@ -1,4 +1,4 @@
-🚗 Automotive Predictive Maintenance Platform End-to-End Machine
+Automotive Predictive Maintenance Platform End-to-End Machine
 Learning System for Remaining Useful Life (RUL) Prediction
 
 OVERVIEW This project implements a production-oriented Predictive
